@@ -2,12 +2,21 @@
   "name": "cebol-lsp-vscode",
   "displayName": "cebol-lsp-vscode",
   "description": "Language Server Protocol for Cebol Language",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.107.0"
   },
+  "publisher": "billalxcode",
   "categories": [
     "Programming Languages"
+  ],
+  "keywords": [
+    "Cebol",
+    "Language Server Protocol",
+    "LSP",
+    "VSCode",
+    "Cebol Language",
+    "Cebol LSP"
   ],
   "repository": {
     "type": "git",
