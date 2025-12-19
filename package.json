@@ -1,0 +1,38 @@
+{
+  "name": "cebol-lsp-vscode",
+  "displayName": "cebol-lsp-vscode",
+  "description": "Language Server Protocol for Cebol Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billalxcode/cebol-lsp-vscode.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "cebol",
+        "aliases": [
+          "Cebol Language",
+          "cebol"
+        ],
+        "extensions": [
+          ".cebol"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cebol",
+        "scopeName": "source.cebol",
+        "path": "./syntaxes/cebol.tmLanguage.json"
+      }
+    ]
+  }
+}
